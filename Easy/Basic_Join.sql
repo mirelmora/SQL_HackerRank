@@ -56,7 +56,7 @@ SELECT IF(GRADE < 8, NULL, NAME), GRADE, MARKS
 FROM STUDENTS JOIN GRADES
 WHERE students.marks >= grades.min_mark 
 AND students.marks <= grades.max_mark
-ORDER BY GRADE DESC, NAME 
+ORDER BY GRADE DESC, NAME
 
 
 
